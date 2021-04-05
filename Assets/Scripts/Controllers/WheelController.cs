@@ -134,6 +134,7 @@ namespace VehiclePhysics {
         }
 
         private void ApplySuspensionForce() {
+
             if (contact.exists) {
                 // get wheel position
                 wheelPosition = (contact.normal * wheel.radius) + contact.point;

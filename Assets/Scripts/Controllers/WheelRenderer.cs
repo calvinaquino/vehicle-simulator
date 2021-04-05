@@ -27,6 +27,9 @@ namespace VehiclePhysics {
 
         private float rotationAcumulationEuler = 0;
 
+        void Initialize() {
+
+        }
 
         void Update() {
             Rotate();
